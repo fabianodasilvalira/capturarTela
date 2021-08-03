@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+  }
+  
+  button {
+    display: inline-block;
+    margin: 1em 1em;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  video#cam {
+    position: absolute;
+    border: 1px solid lightgray;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 200px;
+    bottom: 2rem; left: 2rem;
+  }
+
+  video#iframe {
+    width: 100%;
+
+  }
+
+  .videoCamera {
+    text-align: center;
+    position: relative;
+    border: 1px solid lightgray;
+    width: 45rem;
+    height: 35rem;
+    border-radius: 0px;
+    top: 0rem;
+   
+  }
+
+
+
